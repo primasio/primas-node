@@ -1,0 +1,28 @@
+package: github.com/primasio/primas-node
+ignore:
+- golang.org/x/sys/unix
+- golang.org/x/text/transform
+- golang.org/x/text/unicode/norm
+- golang.org/x/net/websocket
+- golang.org/x/net/context
+- golang.org/x/crypto/scrypt
+- golang.org/x/crypto/pbkdf2
+import:
+- package: github.com/gin-gonic/gin
+  version: v1.2
+- package: github.com/spf13/viper
+  version: v1.0
+- package: github.com/jinzhu/gorm
+  version: v1.0
+- package: github.com/go-sql-driver/mysql
+  version: v1.3
+- package: github.com/primasio/go-base36
+  version: v1.0
+- package: github.com/ethereum/go-ethereum
+  version: v1.7.3
+- package: github.com/grokify/html-strip-tags-go
+- package: github.com/mattn/go-sqlite3
+  version: v1.4.0
+- package: github.com/jasonlvhit/gocron
+- package: github.com/shopspring/decimal
+  version: 1.0.0

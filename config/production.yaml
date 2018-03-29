@@ -1,0 +1,16 @@
+db:
+  connection: "primas:primas@tcp(127.0.0.1:3306)/primas?charset=utf8&parseTime=True"
+
+http:
+  auth:
+    key: primas
+    secret: primas123
+  server:
+      host: 127.0.0.1
+      port: 8080
+
+synchronizer:
+  node:
+    host: 127.0.0.1
+    port: 8545
+  start_block: 4400000
